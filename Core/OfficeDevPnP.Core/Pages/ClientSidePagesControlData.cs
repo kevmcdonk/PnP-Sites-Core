@@ -38,7 +38,7 @@ namespace OfficeDevPnP.Core.Pages
         /// Gets or sets JsonProperty "controlIndex"
         /// </summary>
         [JsonProperty(PropertyName = "controlIndex")]
-        public int ControlIndex { get; set; }
+        public float ControlIndex { get; set; }
     }
 
     /// <summary>
@@ -62,7 +62,7 @@ namespace OfficeDevPnP.Core.Pages
         /// Gets or sets JsonProperty "controlType"
         /// </summary>
         [JsonProperty(PropertyName = "controlType")]
-        public int ControlType { get; set; }
+        public float ControlType { get; set; }
         /// <summary>
         /// Gets or sets JsonProperty "id"
         /// </summary>

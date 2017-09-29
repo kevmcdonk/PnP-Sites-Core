@@ -22,7 +22,7 @@ namespace OfficeDevPnP.Core.Pages
         public const string ControlDataAttribute = "data-sp-controldata";
 
         internal int order;
-        internal int controlType;
+        internal float controlType;
         internal string jsonControlData;
         internal string dataVersion;
         internal string canvasControlData;
@@ -92,7 +92,7 @@ namespace OfficeDevPnP.Core.Pages
         /// <summary>
         /// Type of the control: 3 is a text part, 4 is a client side web part
         /// </summary>
-        public int ControlType
+        public float ControlType
         {
             get
             {
